@@ -299,8 +299,10 @@ MonoBehaviour:
   speedRun: 21
   jumpForce: 20
   friction: {x: -0.1, y: 0}
-  jumpScaleY: 1.5
+  jumpScaleY: 1.1
+  jumpScaleX: 1.1
   animDuration: 0.3
+  ease: 6
 --- !u!1 &65446835
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +443,7 @@ GameObject:
   - component: {fileID: 94212762}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -571,7 +573,7 @@ GameObject:
   - component: {fileID: 644421393}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -701,7 +703,7 @@ GameObject:
   - component: {fileID: 740041082}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1013,7 +1015,7 @@ GameObject:
   - component: {fileID: 978122132}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1215,7 +1217,7 @@ GameObject:
   - component: {fileID: 2119259994}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
