@@ -296,6 +296,7 @@ MonoBehaviour:
   myRigidbody: {fileID: 28621954}
   velocity: {x: 30, y: 0}
   speed: 10
+  speedRun: 21
   jumpForce: 20
   friction: {x: -0.1, y: 0}
 --- !u!1 &65446835
