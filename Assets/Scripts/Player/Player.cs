@@ -40,12 +40,10 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //myRigidbody.MovePosition(myRigidbody.position - velocity * Time.deltaTime);
             myRigidbody.velocity =  new Vector2(-_currentSpeed, myRigidbody.velocity.y);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            //myRigidbody.MovePosition(myRigidbody.position + velocity * Time.deltaTime);
             myRigidbody.velocity =  new Vector2(_currentSpeed, myRigidbody.velocity.y);
         }
 
