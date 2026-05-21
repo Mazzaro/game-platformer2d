@@ -83,14 +83,6 @@ public class Player : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        /*if (collision.gameObject.CompareTag("Platform"))
-        {
-            myRigidbody.transform.DOScaleX(1.2f, animDuration).SetLoops(2, LoopType.Yoyo);
-            myRigidbody.transform.DOScaleY(0.7f, animDuration).SetLoops(2, LoopType.Yoyo);
-            ResetScale();
-            
-        }*/
-
         if (collision.gameObject.CompareTag("Platform")&& !_isLanding)
         {
             _isLanding = true;
