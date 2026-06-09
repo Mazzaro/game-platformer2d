@@ -305,6 +305,9 @@ MonoBehaviour:
   jumpScaleX: 1.1
   animDuration: 0.3
   ease: 6
+  boolRun: Run
+  animator: {fileID: 1355682681}
+  playerSwipeDuration: 0.1
 --- !u!114 &28621959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1065,8 +1068,8 @@ Transform:
   m_GameObject: {fileID: 740041081}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.218517, y: -6.4707546, z: 8.11056}
-  m_LocalScale: {x: 19.923077, y: 2.676736, z: 1}
+  m_LocalPosition: {x: 19.2891, y: -6.4707546, z: 8.11056}
+  m_LocalScale: {x: 30.805939, y: 2.676736, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2071918595}
@@ -1412,7 +1415,7 @@ Transform:
   m_GameObject: {fileID: 978122131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.738518, y: -3.340754, z: 8.11056}
+  m_LocalPosition: {x: 11.9, y: -3.340754, z: 8.11056}
   m_LocalScale: {x: 6.6797714, y: 1.1036003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1590,6 +1593,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1355682681 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6413013834153556191, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
+  m_PrefabInstance: {fileID: 628321565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2071918594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,8 +1830,8 @@ Transform:
   m_GameObject: {fileID: 2119259993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.121483, y: -6.4307537, z: 8.11056}
-  m_LocalScale: {x: 18.948837, y: 2.676736, z: 1}
+  m_LocalPosition: {x: -20, y: -6.4307537, z: 8.11056}
+  m_LocalScale: {x: 23.26473, y: 2.676736, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2071918595}
